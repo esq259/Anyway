@@ -39,7 +39,7 @@ def My_Way():
     print()
         
 def areaCode():
-    SKey = 'TxLOsYQQr4DLcuTeyavErkFewwvx4p%2BL1HWchEkacOCyOD41DNIvhdtrNKxpKoHsB%2Bbtf9BEE48ktRRe9cuHvQ%3D%3D'
+    SKey = ''
     url = 'http://api.visitkorea.or.kr/openapi/service/rest/KorService/areaCode?ServiceKey=' + SKey
     url += '&numOfRows=10&pageNo=1&MobileOS=ETC&MobileApp=TestApp'
 
